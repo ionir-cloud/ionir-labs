@@ -14,7 +14,7 @@ metadata:
   namespace: metallb-system
   name: config
 data:
-### by default this is L2 only. bgp another option.
+### by default this is L2 only. bgp another option https://github.com/metallb/metallb/blob/main/manifests/example-config.yaml
   config: |
     address-pools:
     - name: loadbalancers
