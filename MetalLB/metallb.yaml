@@ -26,7 +26,7 @@ data:
   
 ---
 ### ---
-### https://github.com/metallb/metallb/blob/main/manifests/example-config.yaml
+### https://github.com/metallb/metallb/blob/main/manifests/metallb.yaml
 ### ---
 apiVersion: v1
 kind: ServiceAccount
