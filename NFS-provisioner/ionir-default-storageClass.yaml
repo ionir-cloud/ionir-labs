@@ -1,0 +1,11 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+name: ionir-default
+parameters:
+blockSize: 4k
+historyPolicy: default
+type: ext4
+provisioner: ionir
+reclaimPolicy: Delete
+volumeBindingMode: Immediate
