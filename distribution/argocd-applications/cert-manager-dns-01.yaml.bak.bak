@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/ionir-cloud/ionir-labs.git
-    targetRevision: <<__git_repo.target_revision__>>
+    targetRevision: main
     path: distribution/cert-manager/lets-encrypt-dns-01
     kustomize:
       version: v4.0.5

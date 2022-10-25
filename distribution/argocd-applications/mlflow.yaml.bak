@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/ionir-cloud/ionir-labs.git
-    targetRevision: <<__git_repo.target_revision__>>
+    targetRevision: main
     path: distribution/mlflow
   syncPolicy:
     automated:

@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: <<__git_repo.url__>>
+    repoURL: https://github.com/ionir-cloud/ionir-labs.git
     targetRevision: <<__git_repo.target_revision__>>
     path: distribution/mlflow
   syncPolicy:
